@@ -120,7 +120,7 @@ npm run test:e2e
 npm run test:e2e:report
 ```
 
-Os testes isolam estado via reset de fixtures e exercitam desktop/mobile Chromium: busca, detalhe direto e inexistente, rotas privadas, login/retomada, compra, recusa de pagamento, erros/recuperação de API, cenários vazios, evento Socket.IO e descarte de evento obsoleto/duplicado. Relatórios e traces de falha são gerados pelo Playwright.
+Os testes isolam estado via reset de fixtures e exercitam desktop/mobile Chromium: busca, detalhe direto e inexistente, rotas privadas, login/retomada, compra, recusa de pagamento, erros/recuperação de API, cenários vazios, evento Socket.IO e descarte de evento obsoleto/duplicado. O relatório HTML desta execução está em `reports/playwright/index.html`; traces são anexados pelo Playwright quando há falhas.
 
 ## Auditoria Lighthouse
 
@@ -137,7 +137,7 @@ Em outro terminal:
 npm run audit:lighthouse
 ```
 
-O script audita início e detalhe em mobile (390 px) e desktop (1440 px), com três medições por combinação. Grava HTML/JSON de cada execução e `reports/lighthouse/summary.json`, contendo medianas de Performance, Accessibility, Best Practices, SEO, LCP, CLS e TBT, além das versões/ambiente. Se o Chrome não for descoberto automaticamente, configure `CHROME_PATH`; use `LIGHTHOUSE_URL` para outra origem de preview.
+O script audita início e detalhe em mobile (390 px) e desktop (1440 px), com três medições por combinação. Grava HTML/JSON de cada execução e `reports/lighthouse/summary.json`, contendo medianas de Performance, Accessibility, Best Practices, SEO, LCP, CLS e TBT, além das versões/ambiente. Os relatórios usados nesta entrega estão versionados em `reports/lighthouse/`. Se o Chrome não for descoberto automaticamente, configure `CHROME_PATH`; use `LIGHTHOUSE_URL` para outra origem de preview.
 
 Metas do enunciado: Performance ≥ 90, Accessibility ≥ 95, Best Practices ≥ 95 e SEO ≥ 90. O script reporta resultados e medianas; não os mascara nem garante que as metas sejam atingidas.
 

@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-10-17T13:29:19.681Z",
+  "environment": {
+    "node": "v24.20.0",
+    "lighthouse": "^13.5.0",
+    "chrome": "Chrome/154.0.8037.98",
+    "origin": "http://127.0.0.1:4173",
+    "scenario": "default MSW fixtures",
+    "runsPerPageAndProfile": 3
+  },
+  "measurements": [
+    {
+      "page": "home",
+      "profile": "mobile",
+      "run": 1,
+      "url": "http://127.0.0.1:4173/",
+      "scores": {
+        "performance": 77,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 3141.964,
+        "cls": 0,
+        "tbtMs": 507.5
+      }
+    },
+    {
+      "page": "home",
+      "profile": "mobile",
+      "run": 2,
+      "url": "http://127.0.0.1:4173/",
+      "scores": {
+        "performance": 78,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 2567.2047,
+        "cls": 0,
+        "tbtMs": 663
+      }
+    },
+    {
+      "page": "home",
+      "profile": "mobile",
+      "run": 3,
+      "url": "http://127.0.0.1:4173/",
+      "scores": {
+        "performance": 79,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 2663.1869,
+        "cls": 0,
+        "tbtMs": 567.5
+      }
+    },
+    {
+      "page": "home",
+      "profile": "desktop",
+      "run": 1,
+      "url": "http://127.0.0.1:4173/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 621.631,
+        "cls": 0,
+        "tbtMs": 0
+      }
+    },
+    {
+      "page": "home",
+      "profile": "desktop",
+      "run": 2,
+      "url": "http://127.0.0.1:4173/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 636.114,
+        "cls": 0,
+        "tbtMs": 0
+      }
+    },
+    {
+      "page": "home",
+      "profile": "desktop",
+      "run": 3,
+      "url": "http://127.0.0.1:4173/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 572.374,
+        "cls": 0,
+        "tbtMs": 0
+      }
+    },
+    {
+      "page": "nft-detail",
+      "profile": "mobile",
+      "run": 1,
+      "url": "http://127.0.0.1:4173/nft/nft-1",
+      "scores": {
+        "performance": 82,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 3119.6502,
+        "cls": 0,
+        "tbtMs": 352.5
+      }
+    },
+    {
+      "page": "nft-detail",
+      "profile": "mobile",
+      "run": 2,
+      "url": "http://127.0.0.1:4173/nft/nft-1",
+      "scores": {
+        "performance": 83,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 3070.9760000000006,
+        "cls": 0,
+        "tbtMs": 334.50299999999993
+      }
+    },
+    {
+      "page": "nft-detail",
+      "profile": "mobile",
+      "run": 3,
+      "url": "http://127.0.0.1:4173/nft/nft-1",
+      "scores": {
+        "performance": 83,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 3086.3686,
+        "cls": 0,
+        "tbtMs": 330.5
+      }
+    },
+    {
+      "page": "nft-detail",
+      "profile": "desktop",
+      "run": 1,
+      "url": "http://127.0.0.1:4173/nft/nft-1",
+      "scores": {
+        "performance": 94,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 846.316,
+        "cls": 0.1385139592585884,
+        "tbtMs": 0
+      }
+    },
+    {
+      "page": "nft-detail",
+      "profile": "desktop",
+      "run": 2,
+      "url": "http://127.0.0.1:4173/nft/nft-1",
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 691.324,
+        "cls": 0.1385139592585884,
+        "tbtMs": 0
+      }
+    },
+    {
+      "page": "nft-detail",
+      "profile": "desktop",
+      "run": 3,
+      "url": "http://127.0.0.1:4173/nft/nft-1",
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 694.433,
+        "cls": 0.1385139592585884,
+        "tbtMs": 3.7970000000000255
+      }
+    }
+  ],
+  "medians": [
+    {
+      "page": "home",
+      "profile": "mobile",
+      "scores": {
+        "performance": 78,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 2663.1869,
+        "cls": 0,
+        "tbtMs": 567.5
+      }
+    },
+    {
+      "page": "home",
+      "profile": "desktop",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 621.631,
+        "cls": 0,
+        "tbtMs": 0
+      }
+    },
+    {
+      "page": "nft-detail",
+      "profile": "mobile",
+      "scores": {
+        "performance": 83,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 3086.3686,
+        "cls": 0,
+        "tbtMs": 334.50299999999993
+      }
+    },
+    {
+      "page": "nft-detail",
+      "profile": "desktop",
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "lcpMs": 694.433,
+        "cls": 0.1385139592585884,
+        "tbtMs": 0
+      }
+    }
+  ]
+}
