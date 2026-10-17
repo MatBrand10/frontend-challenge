@@ -1,0 +1,55 @@
+{
+  "name": "nft-marketplace",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty false",
+    "lint": "eslint .",
+    "test:e2e": "playwright test",
+    "test:e2e:report": "playwright show-report",
+    "audit:lighthouse": "node scripts/lighthouse.mjs"
+  },
+  "dependencies": {
+    "@mswjs/socket.io-binding": "^0.2.0",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@tanstack/react-query": "^5.36.0",
+    "@tanstack/react-router": "^1.109.0",
+    "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "msw": "^2.6.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io-client": "^4.8.1",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "chrome-launcher": "^1.2.2",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "lighthouse": "^13.5.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.71.2",
+    "vite": "^6.0.6"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
