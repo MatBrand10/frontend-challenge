@@ -150,7 +150,7 @@ Metas do enunciado: Performance ≥ 90, Accessibility ≥ 95, Best Practices ≥
 | Detalhe NFT | Mobile | 83 | 100 | 100 | 100 | 3086 ms | 0.000 |
 | Detalhe NFT | Desktop | 95 | 100 | 100 | 100 | 694 ms | 0.139 |
 
-Acessibilidade, boas práticas e SEO atingiram as metas nesta execução. Performance mobile permanece abaixo da meta de 90; os valores variam conforme navegador, CPU e rede. Execute novamente no ambiente de avaliação antes de usar esses números como resultado final.
+Acessibilidade, boas práticas e SEO atingiram as metas nesta execução. Performance mobile permanece abaixo da meta de 90. Lighthouse atribuiu o principal custo a execução JavaScript e trabalho na thread principal: bootup mediano de 1,8 s na página inicial e 1,3 s no detalhe, TBT de 568 ms/335 ms, além de aproximadamente 33 KiB de JavaScript não utilizado e 150 ms de economia potencial em recursos bloqueantes. A maior parte do bootup foi atribuída ao chunk `mock-vendor`, necessário para manter os mocks funcionais na demonstração publicada. Os valores variam conforme navegador, CPU e rede; execute novamente no ambiente de avaliação antes de usar esses números como resultado final.
 
 ## Deploy Vercel
 
